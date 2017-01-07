@@ -15,8 +15,8 @@ p = i; // redefine variables
     
     
 // if statements
-if (((pow( 2, p-1)) == 1) || ((p % 7) == 0)) {
-//}  else {
+if (( (p % 2) == 0)|| ((p % 3) == 0) || (p % 5) == 0 || (p % 7) == 0 || (p % 11) == 0) {
+}  else {
    println ( p ); 
 }
 
